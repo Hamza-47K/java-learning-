@@ -1,0 +1,21 @@
+# Custom ArrayList in Java
+
+A generic ArrayList implemented from scratch using an internal array,
+built while studying Data Structures.
+
+## Features
+- Generic type support (`MyArrayList<T>`)
+- add, add(position), remove(position), getEntry, replace
+- contains, clear, isEmpty, isFull, print
+
+## Time Complexity
+| Operation | Complexity |
+|-----------|-----------|
+| add (end) | O(1) |
+| add/remove (position) | O(n) |
+| getEntry(position) | O(1) |
+| contains | O(n) |
+
+## Run
+javac src/myarraylist/*.java
+java -cp src myarraylist.Main
